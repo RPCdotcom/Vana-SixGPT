@@ -56,14 +56,14 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
 
-## 5. sixgpt Dosyası Oluşturma Ve Dizini İçerisine Girme :
+## 5. sixgpt Dizinini İndirme :
 
 ```bash
-mkdir sixgpt
+git clone https://github.com/sixgpt/miner.git
 ```
 
 ```bash
-cd sixgpt
+cd miner
 ```
 
 ## 6. .env Dosyasını Oluşturma ve Düzenleme : 
