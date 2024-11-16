@@ -72,7 +72,7 @@ cd sixgpt
 nano .env
 ```
 
-# Buradaki PrivateKey Kısmına Metamask Cüzdan private keyinizle değiştirin. Sonrasında topluca yapıştırın.
+### Buradaki PrivateKey Kısmına Metamask Cüzdan private keyinizle değiştirin. Sonrasında topluca yapıştırın.
 
 ```bash
 VANA_PRIVATE_KEY=burayaprivkeyyaz
