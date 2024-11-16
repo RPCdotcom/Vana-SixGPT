@@ -55,3 +55,41 @@ docker-compose --version
 sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
+
+## 5. sixgpt Dosyası Oluşturma Ve Dizini İçerisine Girme :
+
+```bash
+mkdir sixgpt
+```
+
+```bash
+cd sixgpt
+```
+
+## 6. .env Dosyasını Oluşturma ve Düzenleme : 
+
+```bash
+nano .env
+```
+
+# Buradaki PrivateKey Kısmına Metamask Cüzdan private keyinizle değiştirin. Sonrasında topluca yapıştırın.
+
+```bash
+VANA_PRIVATE_KEY=burayaprivkeyyaz
+VANA_NETWORK=moksha
+OLLAMA_API_URL=http://ollama:11434/api
+```
+
+## 7. Minerı Başlat : 
+
+```bash
+docker-compose up -d
+```
+
+8. Loglar : 
+
+```bash
+docker-compose logs -f
+```
+
+
